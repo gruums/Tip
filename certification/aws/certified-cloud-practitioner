@@ -32,10 +32,37 @@ Group:
 
 S3: A web services interface to store and retrieve any amount of data from anywhere on the web.
     1) S3 is a universal namespace.
+    2) Object-based.
+    3) unlimited storage.
+    4) Files can be from 0 Bytes to 5 TB.
+    5) Key value pair.
 
-s3 Consistency:
-    1) Read after write consistency.
-    2) Eventual consistency.
+S3 Consistency:
+    1) Read after write consistency.(insert)
+    2) Eventual consistency.(update, delete)
+
+S3 Features:
+    1) Tiered Storage Available.
+    2) Lifecycle Management.
+    3) Versioning.
+    4) Encryption.
+    5) Access Control lists and Bucket Policies.
+
+S3 Storage Classes:
+    1) S3 Standard
+    2) S3 IA
+    3) S3 One Zone - IA
+    4) S3 -Intelligent Tiering
+    5) S3 Glacier
+    6) S3 Glacier Deep Archive
+
+S3 Charges:
+    1) Storage
+    2) Requests
+    3) Storage Management Pricing
+    4) Data Transfer Pricing
+    5) Transfer Acceleration(CDN)
+    6) Cross Region Replication Pricing
 
 Terms:
     Infrastructure As A Service(IAAS)
