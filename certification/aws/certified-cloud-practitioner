@@ -6,14 +6,46 @@ The six advantages of Could Computing:
     5) Stop spending money running and maintaining data centers.
     6) Go global in minutes.
 
-
-Terms:
-    Infrastructure As A Service(IAAS)
-    Platform As A Service(PAAS)
-    Software As A Service(SAAS)
-
 Three types of Clouding Computing Deployments:
     1) Public Cloud
     2) Private Cloud
     3) Hybrid
 
+Choosing the right AWS Region:
+    1) Data Sovereignty Laws
+    2) Latency to end users
+    3) AWS Services
+
+Three ways to access the AWS platform:
+    1) Console
+    2) Command Line
+    3) Software Developers Kit(SDK)
+
+Root Accout:
+    1) The email address you used to set up your AWS account.
+    2) Full administrator access.
+
+Group:
+    1) A place to store your users.
+    2) User will inherit all permissions that the group has.
+    3) Policy can attach to group.
+
+S3: A web services interface to store and retrieve any amount of data from anywhere on the web.
+    1) S3 is a universal namespace.
+
+s3 Consistency:
+    1) Read after write consistency.
+    2) Eventual consistency.
+
+Terms:
+    Infrastructure As A Service(IAAS)
+    Platform As A Service(PAAS)
+    Software As A Service(SAAS)
+    Availability Zone: Data Center
+    Region: a geographical area. 
+        Each Region consist of 2(or more) Availability Zone
+    Edge Location: endpoints for AWS which are use for caching content
+    Identity Access Management(IAM):
+        It is Global. When you create a user or group, this is created GLOBALLY.
+
+    
